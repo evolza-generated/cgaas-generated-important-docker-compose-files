@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      notificationservice-app229:
+        image: evolza/notificationservice-app229
+        container_name: notificationservice-app229
+        ports:
+          - '9864:8088'

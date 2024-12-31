@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      usermanagementservice-app172:
+        image: evolza/usermanagementservice-app172
+        container_name: usermanagementservice-app172
+        ports:
+          - '9337:8000'

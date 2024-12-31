@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      appusermanagementservice-app256:
+        image: evolza/appusermanagementservice-app256
+        container_name: appusermanagementservice-app256
+        ports:
+          - '8131:8888'

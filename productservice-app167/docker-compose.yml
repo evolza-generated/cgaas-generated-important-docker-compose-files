@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      productservice-app167:
+        image: evolza/productservice-app167
+        container_name: productservice-app167
+        ports:
+          - '5673:8888'

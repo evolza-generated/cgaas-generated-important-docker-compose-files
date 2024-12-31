@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      customerservice-app171:
+        image: evolza/customerservice-app171
+        container_name: customerservice-app171
+        ports:
+          - '5455:8008'

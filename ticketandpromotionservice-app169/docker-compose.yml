@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      ticketandpromotionservice-app169:
+        image: evolza/ticketandpromotionservice-app169
+        container_name: ticketandpromotionservice-app169
+        ports:
+          - '6845:8888'
