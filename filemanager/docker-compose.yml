@@ -1,0 +1,8 @@
+version: '3'
+services:
+  file-manager-service:
+    image: evolza/filemangerservice
+    ports:
+      - "8081:8888"
+    volumes:
+      - /home/chamith/uploads:/app/uploads
